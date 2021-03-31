@@ -1,5 +1,5 @@
 # BaseProject
-# 基于MVVM+DataBinding的模块化、组件化的BaseProject。
+基于MVVM+DataBinding的模块化、组件化的BaseProject。
 
 ![](https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
 

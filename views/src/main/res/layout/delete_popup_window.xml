@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <com.views.views.NoDoubleClickButton
+        android:id="@+id/deleteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:background="@drawable/pick_popup_shape"
+        android:padding="@dimen/x20"
+        android:text="@string/popup_delete"
+        android:textColor="@color/text_red"
+        android:textSize="18sp" />
+
+    <com.views.views.NoDoubleClickButton
+        android:id="@+id/cancelBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/x20"
+        android:background="@drawable/pick_popup_shape"
+        android:padding="@dimen/x20"
+        android:text="@string/popup_cancel"
+        android:textColor="@color/text_blue"
+        android:textSize="18sp" />
+</LinearLayout>

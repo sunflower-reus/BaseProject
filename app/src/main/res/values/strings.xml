@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BaseProject</string>
+    <string name="home">首页</string>
+    <string name="list">列表</string>
+    <string name="mine">我的</string>
+    <string name="app_network_socket_timeout">网络连接超时</string>
+</resources>

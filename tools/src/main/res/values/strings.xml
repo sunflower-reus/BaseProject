@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tools</string>
+    <string name="app_crash">很抱歉，程序出现异常，即将退出。</string>
+    <string name="app_exit">再按一次退出程序</string>
+    <string name="popup_pick">拍照</string>
+    <string name="popup_take">从手机相册选择</string>
+    <string name="popup_delete">删除</string>
+    <string name="popup_cancel">取消</string>
+    <string name="dialog_file_too_big">文件过大</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.views.NoScrollViewPager
+            android:id="@+id/main_viewpager"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#EEEEEE"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_viewpager"
+            app:layout_constraintBottom_toTopOf="@+id/home"/>
+
+        <TextView
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y100"
+            android:gravity="center"
+            android:text="@string/home"
+            android:textSize="20sp"
+            android:textColor="#333"
+            android:background="#eee"
+            android:layout_marginBottom="@dimen/y100"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintTop_toBottomOf="@+id/line"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/list"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/list"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y100"
+            android:gravity="center"
+            android:text="@string/list"
+            android:textSize="20sp"
+            android:textColor="#333"
+            android:background="#eee"
+            android:layout_marginBottom="@dimen/y100"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintBaseline_toBaselineOf="@+id/home"
+            app:layout_constraintTop_toBottomOf="@+id/line"
+            app:layout_constraintLeft_toRightOf="@+id/home"
+            app:layout_constraintRight_toLeftOf="@+id/mine"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/mine"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y100"
+            android:gravity="center"
+            android:text="@string/mine"
+            android:textSize="20sp"
+            android:textColor="#333"
+            android:background="#eee"
+            android:layout_marginBottom="@dimen/y100"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintBaseline_toBaselineOf="@id/list"
+            app:layout_constraintTop_toBottomOf="@+id/line"
+            app:layout_constraintLeft_toRightOf="@+id/list"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

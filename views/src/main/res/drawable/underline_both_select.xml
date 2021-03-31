@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+
+    <!-- 左右均缩进 -->
+    <item
+        android:left="@dimen/x20"
+        android:right="@dimen/x20">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/line_grey" />
+        </shape>
+    </item>
+
+    <item android:bottom="@dimen/x1">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/item_select_bg" />
+        </shape>
+    </item>
+</layer-list>

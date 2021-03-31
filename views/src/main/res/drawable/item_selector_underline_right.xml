@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 右缩进 -->
+    <item android:drawable="@drawable/underline_right_select" android:state_pressed="true" />
+    <item android:drawable="@drawable/underline_right_select" android:state_focused="true" />
+    <item android:drawable="@drawable/underline_right" />
+</selector>

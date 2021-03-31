@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 基础样式 -->
+    <style name="BasicTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- ################################################################################################### -->
+    <!-- LinerLayout -->
+    <!-- ################################################################################################### -->
+
+    <!-- LinerLayout White Style -->
+    <style name="BasicTheme.Layout" parent="@style/BasicTheme">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">@dimen/x20</item>
+        <item name="android:paddingRight">@dimen/x20</item>
+    </style>
+
+    <!-- LinerLayout Grey Style -->
+    <style name="BasicTheme.GreyLayout" parent="@style/BasicTheme.Layout">
+        <item name="android:background">@color/colorGrey</item>
+    </style>
+
+    <!-- ################################################################################################### -->
+    <!-- Tips TextView -->
+    <!-- ################################################################################################### -->
+
+    <!-- 提示文本 Style -->
+    <style name="BasicTheme.Tips" parent="@style/BasicTheme">
+        <item name="android:background">@color/colorGrey</item>
+        <item name="android:textColor">@color/text_grey</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- ################################################################################################### -->
+    <!-- TextView -->
+    <!-- ################################################################################################### -->
+
+    <!-- TextView Style  -->
+    <style name="BasicTheme.TextView" parent="@style/BasicTheme">
+        <item name="android:paddingTop">@dimen/x20</item>
+        <item name="android:paddingBottom">@dimen/x20</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- TextView Dark Style  -->
+    <style name="BasicTheme.TextView.Dark" parent="@style/BasicTheme.TextView">
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+
+    <!-- TextView Black Style  -->
+    <style name="BasicTheme.TextView.Black" parent="@style/BasicTheme.TextView">
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <!-- TextView Black Style  -->
+    <style name="BasicTheme.TextView.Black.CVertical" parent="@style/BasicTheme.TextView">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- TextView Grey Style  -->
+    <style name="BasicTheme.TextView.Grey" parent="@style/BasicTheme.TextView">
+        <item name="android:textColor">@color/text_grey</item>
+    </style>
+
+    <!-- ################################################################################################### -->
+    <!-- EditText -->
+    <!-- ################################################################################################### -->
+
+    <!-- EditText Style -->
+    <style name="BasicTheme.EditText" parent="@style/BasicTheme.TextView.Black">
+        <item name="android:background">@drawable/stroke_fillet_transparent_grey</item>
+        <item name="android:textColorHint">@color/hint_grey</item>
+    </style>
+
+    <!-- 带 Padding 的 EditText Style -->
+    <style name="BasicTheme.EditText.Padding" parent="BasicTheme.EditText">
+        <item name="android:paddingLeft">@dimen/x20</item>
+        <item name="android:paddingRight">@dimen/x20</item>
+        <item name="android:paddingTop">@dimen/x20</item>
+        <item name="android:paddingBottom">@dimen/x20</item>
+    </style>
+
+    <!-- 带 Margin 的 EditText Style -->
+    <style name="BasicTheme.EditText.Margin" parent="BasicTheme.EditText">
+        <item name="android:layout_marginLeft">@dimen/x30</item>
+        <item name="android:layout_marginRight">@dimen/x30</item>
+    </style>
+
+    <!-- ################################################################################################### -->
+    <!-- Arrow TextView -->
+    <!-- ################################################################################################### -->
+
+    <!-- Arrow TextView Style -->
+    <style name="BasicTheme.TextView.Arrow" parent="@style/BasicTheme.TextView">
+        <item name="android:drawableEnd">@drawable/icon_arrow_right</item>
+        <item name="android:drawableRight">@drawable/icon_arrow_right</item>
+        <item name="android:drawablePadding">@dimen/x20</item>
+        <!--<item name="android:background">@drawable/item_selector</item>-->
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- 带向右箭头的 TextView Black Style -->
+    <style name="BasicTheme.TextView.Arrow.Black" parent="@style/BasicTheme.TextView.Arrow">
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <!-- 带向右箭头的 TextView Grey Style -->
+    <style name="BasicTheme.TextView.Arrow.Grey" parent="@style/BasicTheme.TextView.Arrow">
+        <item name="android:textColor">@color/text_grey</item>
+    </style>
+
+    <!-- ################################################################################################### -->
+    <!-- Underline Layout -->
+    <!-- ################################################################################################### -->
+
+    <!-- 含下划线的 Layout -->
+    <style name="BasicTheme.Layout.Line" parent="@style/BasicTheme.Layout">
+        <item name="android:background">@drawable/underline</item>
+    </style>
+
+    <style name="BasicTheme.Layout.LineLeft" parent="@style/BasicTheme.Layout">
+        <item name="android:background">@drawable/underline_left</item>
+    </style>
+
+    <style name="BasicTheme.Layout.LineRight" parent="@style/BasicTheme.Layout">
+        <item name="android:background">@drawable/underline_right</item>
+    </style>
+
+    <style name="BasicTheme.Layout.LineBoth" parent="@style/BasicTheme.Layout">
+        <item name="android:background">@drawable/underline_both</item>
+    </style>
+
+    <!-- 含下划线且有选中效果的 Layout -->
+    <style name="BasicTheme.Layout.Selector.Line" parent="@style/BasicTheme.Layout">
+        <item name="android:background">@drawable/item_selector_underline</item>
+    </style>
+
+    <style name="BasicTheme.Layout.Selector.LineLeft" parent="@style/BasicTheme.Layout">
+        <item name="android:background">@drawable/item_selector_underline_left</item>
+    </style>
+
+    <style name="BasicTheme.Layout.Selector.LineRight" parent="@style/BasicTheme.Layout">
+        <item name="android:background">@drawable/item_selector_underline_right</item>
+    </style>
+
+    <style name="BasicTheme.Layout.Selector.LineBoth" parent="@style/BasicTheme.Layout">
+        <item name="android:background">@drawable/item_selector_underline_both</item>
+    </style>
+</resources>

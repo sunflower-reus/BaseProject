@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GesturePatternView">
+        <!-- Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width" or "lock_height" -->
+        <attr name="pattern_aspect">
+            <enum name="SQUARE" value="0" />
+            <enum name="LOCK_WIDTH" value="1" />
+            <enum name="LOCK_HEIGHT" value="2" />
+        </attr>
+        <attr name="path_color" format="color" />
+        <attr name="path_wrong_color" format="color" />
+    </declare-styleable>
+
+    <!-- 手势密码 - 背景 -->
+    <color name="gesture_start_color">#FFFFFF</color>
+    <color name="gesture_end_color">#FFFFFF</color>
+
+    <!-- 手势密码 - 设置 -->
+    <string name="lock_pattern_title">设置手势密码</string>
+    <string name="lock_pattern_short">至少连接4个点，请重新绘制</string>
+    <string name="lock_pattern_start">绘制图案</string>
+    <string name="lock_pattern_again">再次绘制图案</string>
+    <string name="lock_pattern_wrong">与上次绘制不一致，请重新绘制</string>
+    <string name="lock_pattern_finish">设置成功</string>
+    <string name="lock_pattern_reset">重设手势图案</string>
+
+    <!-- 手势密码 - 解锁 -->
+    <string name="unlock_pattern_title">验证手势密码</string>
+    <string name="unlock_pattern_prompt">请输入手势密码</string>
+    <string name="unlock_pattern_error1">手势密码错误，还可以输入 %1$d 次</string>
+    <string name="unlock_pattern_error2">您已输错 %1$d 次密码，手势密码已关闭，请重新登录</string>
+    <string name="unlock_pattern_forgot">忘记手势密码</string>
+    <string name="unlock_pattern_forgot_prompt">忘记手势密码，您需要重新登录</string>
+    <string name="unlock_pattern_visitor">登录其他账号</string>
+    <string name="unlock_pattern_visitor_prompt">登录其他账号，您需要重新登录</string>
+
+</resources>

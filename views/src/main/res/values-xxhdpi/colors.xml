@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App bar颜色 -->
+    <color name="colorPrimary">#F9F9F9</color>
+    <!-- 状态栏颜色(Lollipop - API Level 21 以上) -->
+    <color name="colorPrimaryDark">#2E3235</color>
+    <!-- 控件的主色调(光标颜色、checkbox背景色等) -->
+    <color name="colorAccent">#FF5256</color>
+    <!-- 灰色背景色 -->
+    <color name="colorGrey">#F5F5F5</color>
+    <!-- 标题栏目 -->
+    <color name="colorTitleBar">#FFFFFF</color>
+    <!-- 底部导航栏 -->
+    <color name="colorTabBar">#F7F7F7</color>
+    <!-- 透明灰色背景 -->
+    <color name="transparentGrey">#A0000000</color>
+    <!-- 轻透明-->
+    <color name="lightAlpha">#43000000</color>
+    <!--微轻透明-->
+    <color name="littleAlpha">#79000000</color>
+
+
+    <!-- 字体颜色 -->
+    <color name="text_dark">#323232</color>
+    <color name="text_black">#646464</color>
+    <color name="text_grey">#989898</color>
+    <color name="text_silver">#CCCCCC</color>
+    <color name="text_blue">#3BB0FF</color>
+    <color name="text_red">#F95A28</color>
+    <color name="text_green">#30DBA6</color>
+    <color name="text_orange">#FF7D00</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- EditText-hint-灰色 -->
+    <color name="hint_grey">#CCCCCC</color>
+
+    <!-- 灰色线 -->
+    <color name="line_black">#999999</color>
+    <color name="line_grey">#DDDDDD</color>
+
+    <!-- item选中背景色 -->
+    <color name="item_select_bg">#CCFFFF</color>
+
+    <!-- button-enable -->
+    <color name="enable_bg">#28a0dc</color>
+    <color name="original_enable_bg">#28a0dc</color>
+    <!-- button-disable -->
+    <color name="disable_bg">#CCCCCC</color>
+    <!-- button-pressed -->
+    <color name="press_bg">#EA4612</color>
+
+    <color name="finished_bg">#aeaeae</color>
+    <!--<color name="finished_bg">#555555</color>-->
+</resources>

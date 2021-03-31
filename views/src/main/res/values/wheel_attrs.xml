@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AbstractWheelView">
+        <attr name="sw_visibleItems" format="integer"/>
+        <attr name="sw_isAllVisible" format="boolean"/>
+        <attr name="sw_itemOffsetPercent" format="integer"/>
+        <attr name="sw_itemsPadding" format="dimension"/>
+        <attr name="sw_selectionDividerDimmedAlpha" format="integer"/>
+        <attr name="sw_selectionDividerActiveAlpha" format="integer"/>
+        <attr name="sw_selectionDivider" format="reference"/>
+        <attr name="sw_itemsDimmedAlpha" format="integer"/>
+        <attr name="sw_isCyclic" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="WheelVerticalView">
+        <attr name="sw_selectionDividerHeight" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="WheelHorizontalView">
+        <attr name="sw_selectionDividerWidth" format="dimension"/>
+    </declare-styleable>
+
+
+    <attr name="sw_abstractWheelViewStyle" format="reference" />
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressBar">
+        <!-- 默认颜色 -->
+        <attr name="progressBarDefaultColor" format="color" />
+        <!-- 进度颜色 -->
+        <attr name="progressBarProgressColor" format="color" />
+        <!-- 已抢圆环光颜色 -->
+        <attr name="progressBarOverColor" format="color" />
+        <!-- 已抢文字光颜色 -->
+        <attr name="progressBarOverTextColor" format="color" />
+        <!-- 是否已抢光 -->
+        <attr name="progressBarIsOver" format="boolean" />
+        <!-- 字体颜色 -->
+        <attr name="progressBarTextColor" format="color" />
+        <!-- 字体大小 -->
+        <attr name="progressBarTextSize" format="dimension" />
+        <!-- 进度条宽度 -->
+        <attr name="progressBarWidth" format="float" />
+        <!-- 最大进度 -->
+        <attr name="progressBarMax" format="integer" />
+        <!-- 进度百分比 -->
+        <attr name="progressBarProgress" format="float" />
+        <!-- 进度的风格，实心或者空心 -->
+        <attr name="progressBarPaintStyle">
+            <enum name="STROKE" value="0" />
+            <enum name="FILL" value="1" />
+        </attr>
+
+        <!-- 是否显示中间的进度 -->
+        <attr name="displayable" format="boolean" />
+    </declare-styleable>
+</resources>
